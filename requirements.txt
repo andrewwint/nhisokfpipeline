@@ -1,0 +1,5 @@
+# Pipeline stages. Airflow itself is provided by aws-mwaa-local-runner (do not pin it here);
+# these are what the tasks import.
+pandas>=2.0
+duckdb>=1.0
+pyarrow>=14.0
