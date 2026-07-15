@@ -1,0 +1,5 @@
+# Ship this beside the DAG in the mwaa-local-runner dags/ folder.
+# Airflow tries to import every .py in dags/ as a standalone DAG module; the okf_pipeline
+# package uses relative imports and would raise "attempted relative import with no known
+# parent package". Ignoring the package (the DAG imports it correctly) fixes that.
+okf_pipeline/

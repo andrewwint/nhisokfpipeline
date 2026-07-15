@@ -1,0 +1,8 @@
+# Notebook-only deps (EDA + charts). NOT needed by the pipeline runtime — see requirements.txt.
+#   pip install -r requirements-notebook.txt
+#   jupytext --to ipynb notebooks/02_eda_adult23.py   # or open the .ipynb directly
+matplotlib>=3.7
+seaborn>=0.13
+jupytext>=1.16
+nbconvert>=7.0
+ipykernel>=6.0
