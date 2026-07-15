@@ -10,3 +10,6 @@ data/
 
 # notebook checkpoints
 .ipynb_checkpoints/
+
+# the local MWAA runner is a separate clone, not part of this repo
+aws-mwaa-local-runner/
